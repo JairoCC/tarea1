@@ -1,11 +1,8 @@
 
 nombre = input("cual es tu nombre?: ")
 
-while True:
-    if nombre == "" or nombre.isdigit():
-        nombre = input("ingresa un nombre valido: ")
-    else:
-        break
+while nombre == "" or nombre.isdigit():
+    nombre = input("ingresa un nombre valido: ")
 
 edad = input("Que edad tienes?: ")
 
